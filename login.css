@@ -1,0 +1,75 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "poppin", sans-serif;
+}
+
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(OIP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 350px;
+    background: rgb(156, 77, 156);
+    color: black;
+    border-radius: 20px;
+    box-shadow: #3a3636 4px 4px 7px 7px;
+    height: auto;
+    padding-bottom: 5%;
+}
+
+h1 {
+
+    font-size: 36px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.input-box {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    
+    
+}
+
+.input-box {
+    font-size: 20px;
+    color: #fff;
+    padding: 20px  ;
+}
+
+.input-box input {
+    width: 90%;
+    height: 7vh;
+    border-radius:20px ;
+
+
+}
+
+.remember-forgot {
+    text-align: center;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    width: 40%;
+    height: 5vh;
+    border-radius:15px ;
+}
+
+.register-link p {
+    text-align: center;
+}
